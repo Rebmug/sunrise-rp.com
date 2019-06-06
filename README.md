@@ -1,3 +1,3 @@
 # sunrise-rp.com
--Source code of Sunrise Roleplay's Official Site
+Source code of Sunrise Roleplay's Official Site.
 
