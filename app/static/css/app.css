@@ -30,7 +30,7 @@ body {
     margin: -100px 0 0 -100px;
 }
 /* Header Area */
-.header {
+.main-header {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -38,29 +38,59 @@ body {
 .header-buttons {
     margin-top: 3rem;
 }
+.btn-register {
+    color: #fff;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    background-color: #67AF51;
+    border-color: #67AF51;
+}
+.btn-register:hover {
+    color: #fff;
+    font-weight: 600;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    background-color: rgb(143, 223, 119);
+    border-color: #67AF51;
+}
+.btn-login {
+    color: #fff;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    background-color: transparent;
+}
+.btn-login:hover {
+    color: #000;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
 /* Main Body */
 
 /* --> Navbar */
 .topnav {
     background-color: rgb(0, 0, 0, 0.3);
     border-top:1px solid rgba(0,0,0,0.2);
-    border-radius: 0.3rem 0.3rem 0 0;
+    border-radius: 0.2rem 0.2rem 0 0;
     overflow: hidden;
 }
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #ddd;
     text-align: center;
-    padding: 10px 16px;
+    padding: 10px 11px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 .topnav a:hover {
-    background-color: #ddd;
+    border-radius: 0.2rem 0.2rem 0 0;
+    background-color: rgb(236, 236, 236, 0.4);
     color: black;
 }
 .topnav a.active {
+    font-weight: 700;
     background-color: #ececec;
     color: #000;
     border-radius: .3rem .3rem 0 0;
