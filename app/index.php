@@ -5,8 +5,6 @@
         on it so I feel like using procedural PHP but my future plan is to use Oriented
         PHP programming with a lovely framework Laravel.  
     */
-?>
-<?php
     include "inc/header.inc.php";
 ?>
             <!--Main Body-->
