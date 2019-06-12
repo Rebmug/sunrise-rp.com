@@ -1,4 +1,10 @@
 /* Main Page CSS */
+
+/* font */
+@font-face {
+    font-family: rebmug;
+    src: url("../font/Abandoned-Bold.ttf");
+}
 body {
     background: url("../img/bg.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -164,6 +170,35 @@ body {
     border-radius: 4px;
     min-height: 25rem;
     padding: 1rem 1rem 1rem 1rem;
+}
+/* --> Login Box */
+.login-box {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.login-box-area {
+    padding: 1rem 1rem 1rem 1rem;
+    word-wrap: break-word;
+    background-color: #fefefe;
+    -webkit-box-shadow: 0 0 5px 2px #cbcbcb;
+    box-shadow: 0 0 5px 2px #cbcbcb;
+    border: 1px solid #d8d8d8;
+    min-height: 20rem;
+    border-radius: 0 0 .3rem .3rem;
+}
+.login-box-header {
+    font-size: 2rem;
+    font-family: rebmug;
+}
+.btn-loginpg {
+    color: #fff;
+    background-color: #5a6677;
+    border-color: #7d899c #637083 #637083 #7d899c;
+}
+.btn-loginpg:hover {
+    color: #fff;
+    background-color: #4d5662;
+    border-color: #7d899c #637083 #637083 #7d899c;
 }
 /* -> => Side bars */
 .sidebar {
